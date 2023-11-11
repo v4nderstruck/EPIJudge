@@ -12,7 +12,12 @@ def zero_one_random():
 
 
 def uniform_random(lower_bound: int, upper_bound: int) -> int:
-    # TODO - you fill in here.
+    delta = (upper_bound - lower_bound) * 2
+    
+    dices = 0
+    for i in range(delta):
+        dices += zero_one_random() << i
+
     return 0
 
 

@@ -3,9 +3,7 @@ from typing import Optional
 from list_node import ListNode
 from test_framework import generic_test
 
-
 def add_two_numbers(L1: ListNode, L2: ListNode) -> Optional[ListNode]:
-    # TODO - you fill in here.
     return None
 
 

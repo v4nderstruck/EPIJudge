@@ -2,9 +2,18 @@ from test_framework import generic_test
 
 
 def divide(x: int, y: int) -> int:
-    # TODO - you fill in here.
-    return 0
+    q = 0
+    if x < y:
+        return 0
+    if x == y:
+        return 1
 
+    while x >= y:
+        x -= y
+        q += 1
+
+
+    return q
 
 if __name__ == '__main__':
     exit(
